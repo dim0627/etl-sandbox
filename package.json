@@ -1,11 +1,21 @@
 {
   "name": "etl-sandbox",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "index.ts",
   "repository": "ssh://git@github.com/dim0627/etl-sandbox.git",
   "author": "Daisuke Tsuji <dim0627@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "ts-node index.ts"
+  },
   "dependencies": {
-    "ts-node": "^10.9.2"
+    "@aws-sdk/client-firehose": "^3.511.0",
+    "ts-node": "^10.9.2",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "dotenv": "^16.4.1",
+    "typescript": "^5.3.3"
   }
 }
