@@ -1,0 +1,11 @@
+{
+  "name": "etl-sandbox",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "ssh://git@github.com/dim0627/etl-sandbox.git",
+  "author": "Daisuke Tsuji <dim0627@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
